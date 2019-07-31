@@ -5,12 +5,13 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - test:
-        requires:
-          - build
-      - deploy:
-        requires:
-          - test
+      - test
+          type: approval
+          requires:
+            - build
+      - deploy-gh-pages:
+          requires:
+            - test
 
 
 jobs:
