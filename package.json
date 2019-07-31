@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
-    "deploy": "parcel build src/index.html && gh-pages -d dist"
+    "deploy": "parcel build src/index.html && gh-pages --prefix dist -d dist"
   },
   "dependencies": {},
   "devDependencies": {

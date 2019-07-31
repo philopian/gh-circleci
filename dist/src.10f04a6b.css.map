@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACE,sBACF,CAEA,WACE,iBAAkB,CAClB,aACF,CAEA,iBACE,aAAc,CACd,aACF","file":"src.10f04a6b.css","sourceRoot":"../src","sourcesContent":["body {\n  font-family: sans-serif;\n}\n\n.container{\n  text-align: center;\n  margin: 0 auto;\n}\n\n#ice-cream-cones{\n  display: block;\n  margin: 0 auto;\n}"]}
