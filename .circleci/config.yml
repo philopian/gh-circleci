@@ -5,8 +5,12 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - test
-      - deploy
+      - test:
+        requires:
+          - build
+      - deploy:
+        requires:
+          - test
 
 
 jobs:
